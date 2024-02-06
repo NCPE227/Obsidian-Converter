@@ -1,3 +1,32 @@
+# Obsidian.md Converter
+Obsidian Converter is a plugin which allows you to strip the markdown formatting to allow for easy copy-pasting to share your work
+with users not using Obsidian or another markdown solution, as well as to support other formats for storing interconnected articles
+like WorldAnvil.
+
+## Why Do I Want This?
+I kept track of all of my D&D and World Building notes in one big vault. Obsidian is fantastic for this, since it's quick 
+and easy to set up a vault and make connection. The only issue, it that it leaves something to be desired with sharing this 
+content unless your intended recipient has Obsidian as well. For me, this brought up an issue: I was copy and pasting material over,
+and the formatting made it difficult to do this.
+
+My solution is this plugin. It allows you to strip the referential material out that belongs to this markdown flavor, and instead
+provides you the option to convert it all into plain text (removing links, replacing text casting with the desired word), or to
+WorldAnvil's article linking notation so that copy-pasting works much more seamlessly and requires way less manual editing of files.
+
+## How Does It Work?
+When you right-click a file, there is a new option: "Convert/Export File". This lets you either save a file or add it's converted content
+to your clipboard.
+
+If you view the settings page for the plugin, you'll find other settings which allow you to convert the entire vault en-masse creating an
+exact copy of all it's files in a location of your choosing.
+
+## Planned Features
+I am open to adding support for new formats and features as they are requested or become a necessity for me. Additionally, if you'd like to add
+your own work to the plugin, adding support for new formats, you're welcome to contribute to the repository. You can find it here: <br>
+https://github.com/NCPE227/obsidian-sample-plugin <br>
+Additionally, you're welcome to request format support by creating a pull request for that feature. If I feel like it would be a good
+fit for the project, I'll update the plugin to include that feature in time.
+
 # Obsidian Sample Plugin
 
 This is a sample plugin for Obsidian (https://obsidian.md).
